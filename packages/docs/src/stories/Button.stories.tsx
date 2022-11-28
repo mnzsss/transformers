@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from "@beyounglabs/ui-react";
+import { Button } from "@beyounglabs/ui-react";
 import type { StoryObj, Meta } from "@storybook/react";
 
 export default {
@@ -8,7 +8,7 @@ export default {
   args: {
     children: "Enviar",
   },
-} as Meta<ButtonProps>;
+} as Meta;
 
-export const Primary: StoryObj<ButtonProps> = {};
-export const Secondary: StoryObj<ButtonProps> = {};
+export const Primary: StoryObj = {};
+export const Secondary: StoryObj = {};
